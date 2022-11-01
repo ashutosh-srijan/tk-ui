@@ -2,13 +2,14 @@
   position: absolute;
   display: flex;
   justify-content: center;
-  bottom: 120px;
+  bottom: 250px;
   right: 10px;
   color: white;
 }
 
 .videoHeader__right {
   position: relative;
+  justify-content: center;
   height: 10cm;
   margin-bottom: 130px;
   padding-left: 40px;
@@ -16,7 +17,8 @@
 
 .videoHeader__left {
   position: relative;
+  justify-content: center;
   right: 400px;
-  bottom: 10px;
+  bottom: 5px;
   padding-left: 0px;
 }

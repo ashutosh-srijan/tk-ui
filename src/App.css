@@ -3,7 +3,6 @@ html {
 }
 
 .app {
-  padding: 40px 40px;
   height: 100vh;
   background-color: black;
   display: grid;
@@ -12,9 +11,9 @@ html {
 
 .app__videos {
   position: relative;
-  height: 800px;
+  height: 950px;
   overflow: scroll;
-  width: 80%;
+  width: 100%;
   max-width: 500px;
   scroll-snap-type: y mandatory;
 }

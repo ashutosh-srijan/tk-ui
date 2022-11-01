@@ -46,8 +46,6 @@ function App() {
           messages={400}
           shares={200}
         />
-        <Video />
-        <Video />
       </div>
     </div>
   );
