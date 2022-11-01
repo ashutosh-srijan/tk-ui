@@ -1,0 +1,18 @@
+.header {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: 88vh;
+  right: 100px;
+  color: white;
+}
+
+.header__text {
+  justify-content: space-between;
+  display: flex;
+  padding-right: 50px;
+}
+
+.header__text > h4 {
+  word-spacing: 30px;
+}

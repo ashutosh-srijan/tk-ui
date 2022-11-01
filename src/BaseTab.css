@@ -1,0 +1,21 @@
+.base__design {
+  position: relative;
+  align-items: center;
+  background-color: black;
+  color: white;
+  bottom: 140px;
+  margin-top: 10px;
+}
+
+.base__tab {
+  position: relative;
+  height: 20cm;
+  margin-bottom: 100px;
+}
+
+.base__tab {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}

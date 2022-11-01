@@ -1,0 +1,22 @@
+.videoHeader {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: 120px;
+  right: 10px;
+  color: white;
+}
+
+.videoHeader__right {
+  position: relative;
+  height: 10cm;
+  margin-bottom: 130px;
+  padding-left: 40px;
+}
+
+.videoHeader__left {
+  position: relative;
+  right: 400px;
+  bottom: 10px;
+  padding-left: 0px;
+}
