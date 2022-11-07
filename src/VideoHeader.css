@@ -1,24 +1,23 @@
 .videoHeader {
   position: absolute;
   display: flex;
-  justify-content: center;
-  bottom: 250px;
-  right: 10px;
+  justify-content: space-between;
   color: white;
+  top: 10px;
+  width: 95%;
+  left: 9px;
+  flex-direction: row-reverse;
 }
 
 .videoHeader__right {
   position: relative;
   justify-content: center;
-  height: 10cm;
-  margin-bottom: 130px;
-  padding-left: 40px;
+  height: auto;
+  top: 4px;
 }
 
 .videoHeader__left {
   position: relative;
   justify-content: center;
-  right: 400px;
-  bottom: 5px;
-  padding-left: 0px;
+  top: 1px;
 }

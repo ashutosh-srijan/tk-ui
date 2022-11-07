@@ -1,9 +1,9 @@
 .videoFooter {
-  position: relative;
-  color: white;
-  bottom: 130px;
-  margin-left: 40px;
-  display: flex;
+	position: relative;
+	color: white;
+	bottom: 140px;
+	margin-left: 20px;
+	display: flex;
 }
 
 .videoFooter__text {
@@ -16,7 +16,7 @@
   filter: invert(1);
   position: absolute;
   bottom: 0;
-  right: 20px;
+  right: 8px;
 }
 
 /* .videoFooter__ticker > .ticker {
