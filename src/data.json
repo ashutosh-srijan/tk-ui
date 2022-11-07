@@ -1,0 +1,22 @@
+{
+  "reels": [
+    {
+      "url": "./video/pexels-c-technical-6143546.mp4",
+      "channel": "/",
+      "description": "two",
+      "song": "two",
+      "likes": "123",
+      "messages": "700",
+      "shares": "200"
+    },
+    {
+      "url": "./video/pexels-roman-odintsov-5667123.mp4",
+      "channel": "/",
+      "description": "three",
+      "song": "three",
+      "likes": "123",
+      "messages": "700",
+      "shares": "200"
+    }
+  ]
+}

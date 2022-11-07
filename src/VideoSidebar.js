@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Avatar from "@material-ui/core/Avatar";
+//import Avatar from "@material-ui/core/Avatar";
 import { MdFavorite } from "react-icons/md";
 import { MdFavoriteBorder } from "react-icons/md";
 import { FaShare } from "react-icons/fa";

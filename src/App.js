@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 //import Video from "./Video";
 import reels from "./data.json";
 import Video from "./Video";
@@ -11,11 +11,12 @@ function App() {
     <div className="app">
       <div className="app__videos">
         {reels.reels.map(
-          ({ url, channel, description, likes, messages, shares }) => (
+          ({ url, channel, description, song, likes, messages, shares }) => (
             <Video
               url={url}
               channel={channel}
               description={description}
+              song={song}
               likes={likes}
               messages={messages}
               shares={shares}

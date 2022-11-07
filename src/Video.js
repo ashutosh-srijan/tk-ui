@@ -5,6 +5,7 @@ import VideoHeader from "./VideoHeader";
 import "./Video.css";
 import BaseTab from "./BaseTab";
 import HeaderText from "./HeaderText";
+import videos from "./data.json";
 
 function Video({ url, channel, description, song, likes, messages, shares }) {
   const [playing, setPlaying] = useState(false);

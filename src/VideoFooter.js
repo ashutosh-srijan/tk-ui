@@ -12,7 +12,7 @@ function VideoFooter({ channel, description, song }) {
 
         <div className="videoFooter__ticker">
           <FaMusic />
-          <p>Somthing you know..</p>
+          <p>{song}</p>
           {/* <Ticker mode="smooth">
             {({ index }) => (
               <>
