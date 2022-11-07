@@ -4,8 +4,11 @@ import "./HeaderText.css";
 function HeaderText() {
   return (
     <div className="header">
-      <div className="header__text">
-        <h4>Following Follow</h4>
+      <div className="header__text1">
+        <h4>Following |</h4>
+      </div>
+      <div className="header__text2">
+        <h4>For You</h4>
       </div>
     </div>
   );

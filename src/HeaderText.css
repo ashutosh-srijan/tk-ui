@@ -10,9 +10,14 @@
   top: 15px;
 }
 
-.header__text {
+.header__text1 {
   justify-content: space-between;
   display: flex;
+  color: #8b8786;
+}
+
+.header__text2 {
+  margin-left: 5px;
 }
 
 .header__text > h4 {
