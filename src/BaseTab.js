@@ -1,5 +1,6 @@
 import React from "react";
-import HomeIcon from "@material-ui/icons/Home";
+import { AiFillHome } from "react-icons/ai";
+//import HomeIcon from "@material-ui/icons/Home";
 import PeopleIcon from "@material-ui/icons/People";
 import AddBoxIcon from "@material-ui/icons/AddBox";
 import InboxIcon from "@material-ui/icons/Inbox";
@@ -10,7 +11,7 @@ function BaseTab() {
   return (
     <div className="base__design">
       <div className="base__tab">
-        <HomeIcon fontSize="large" />
+        <AiFillHome size="2em" title="home" />
         <PeopleIcon fontSize="large" />
         <AddBoxIcon fontSize="large" />
         <InboxIcon fontSize="large" />

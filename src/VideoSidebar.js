@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import FavoriteIcon from "@material-ui/icons/Favorite";
-import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
-import MessageIcon from "@material-ui/icons/Message";
-import ShareIcon from "@material-ui/icons/Share";
+import Avatar from "@material-ui/core/Avatar";
+import { MdFavorite } from "react-icons/md";
+import { MdFavoriteBorder } from "react-icons/md";
+import { FaShare } from "react-icons/fa";
+import { FaCommentDots } from "react-icons/fa";
 import "./VideoSidebar.css";
 
 function VideoSidebar({ likes, shares, messages }) {
@@ -12,22 +13,19 @@ function VideoSidebar({ likes, shares, messages }) {
     <div className="videoSidebar">
       <div className="videoSidebar__button">
         {liked ? (
-          <FavoriteIcon fontSize="large" onClick={(e) => setLiked(false)} />
+          <MdFavorite size="2em" onClick={(e) => setLiked(false)} />
         ) : (
-          <FavoriteBorderIcon
-            fontSize="large"
-            onClick={(e) => setLiked(true)}
-          />
+          <MdFavoriteBorder size="2em" onClick={(e) => setLiked(true)} />
         )}
 
         <p>{liked ? likes + 1 : likes}</p>
       </div>
       <div className="videoSidebar__button">
-        <MessageIcon fontSize="large" />
+        <FaCommentDots size="2em" />
         <p>{messages}</p>
       </div>
       <div className="videoSidebar__button">
-        <ShareIcon fontSize="large" />
+        <FaShare size="2em" />
         <p>{shares}</p>
       </div>
     </div>
