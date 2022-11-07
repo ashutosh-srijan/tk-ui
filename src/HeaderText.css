@@ -2,15 +2,17 @@
   position: absolute;
   display: flex;
   justify-content: center;
-  bottom: 95vh;
-  right: 100px;
   color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+  top: 15px;
 }
 
 .header__text {
   justify-content: space-between;
   display: flex;
-  padding-right: 50px;
 }
 
 .header__text > h4 {
