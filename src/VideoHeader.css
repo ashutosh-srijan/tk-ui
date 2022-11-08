@@ -9,6 +9,12 @@
   flex-direction: row-reverse;
 }
 
+.videoHeader {
+  text-shadow: 0.02em 0 white, 0 0.02em white, -0.02em 0 white, 0 -0.02em white,
+    -0.02em -0.02em white, -0.02em 0.02em white, 0.02em -0.02em white,
+    0.02em 0.02em white;
+}
+
 .videoHeader__right {
   position: relative;
   justify-content: center;

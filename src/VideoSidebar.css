@@ -9,3 +9,9 @@
   padding: 20px;
   text-align: center;
 }
+
+.videoSidebar__button {
+  text-shadow: 0.02em 0 white, 0 0.02em white, -0.02em 0 white, 0 -0.02em white,
+    -0.02em -0.02em white, -0.02em 0.02em white, 0.02em -0.02em white,
+    0.02em 0.02em white;
+}

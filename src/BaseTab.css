@@ -7,6 +7,12 @@
   margin-top: 5px;
 }
 
+.base__design {
+  text-shadow: 0.05em 0 black, 0 0.05em black, -0.05em 0 black, 0 -0.05em black,
+    -0.05em -0.05em black, -0.05em 0.05em black, 0.05em -0.05em black,
+    0.05em 0.05em black;
+}
+
 .base__tab {
   position: relative;
   height: 20cm;
