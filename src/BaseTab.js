@@ -1,21 +1,20 @@
 import React from "react";
 import { AiFillHome } from "react-icons/ai";
-//import HomeIcon from "@material-ui/icons/Home";
 import PeopleIcon from "@material-ui/icons/People";
 import AddBoxIcon from "@material-ui/icons/AddBox";
-import InboxIcon from "@material-ui/icons/Inbox";
-import PersonIcon from "@material-ui/icons/Person";
+import { BiMessageMinus } from "react-icons/bi";
+import { AiOutlineUser } from "react-icons/ai";
 import "./BaseTab.css";
 
 function BaseTab() {
   return (
     <div className="base__design">
       <div className="base__tab">
-        <AiFillHome size="2em" title="home" />
+        <AiFillHome size="2em" name="Home" />
         <PeopleIcon fontSize="large" />
         <AddBoxIcon fontSize="large" />
-        <InboxIcon fontSize="large" />
-        <PersonIcon fontSize="large" />
+        <BiMessageMinus size="2em" />
+        <AiOutlineUser size="2em" />
       </div>
     </div>
   );
