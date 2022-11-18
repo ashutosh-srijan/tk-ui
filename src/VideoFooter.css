@@ -18,11 +18,12 @@
 
 .videoFooter__record {
   animation: spinTheRecord infinite 5s linear;
-  height: 50px;
+  height: 45px;
   filter: invert(1);
   position: absolute;
   bottom: 0;
-  right: 8px;
+  top: 30px;
+  right: 20px;
 }
 
 /* .videoFooter__ticker > .ticker {

@@ -9,7 +9,6 @@ function VideoFooter({ channel, description, song }) {
       <div className="videoFooter__text">
         <h3>@{channel}</h3>
         <p>{description}</p>
-
         <div className="videoFooter__ticker">
           <FaMusic />
           <p>{song}</p>

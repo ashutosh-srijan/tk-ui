@@ -1,5 +1,4 @@
 import React from "react";
-//import Video from "./Video";
 import reels from "./data.json";
 import Video from "./Video";
 import "./App.css";
